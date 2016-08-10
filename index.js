@@ -8,7 +8,7 @@ if (args[0] != null) {
 
 var json = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 
-fs.readFile('./boiler/redpack.spec', 'utf8', function (err,data) {
+fs.readFile('./boiler/template-server.spec', 'utf8', function (err,data) {
   if (err) {
     return console.log(err);
   }
