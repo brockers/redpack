@@ -7,7 +7,7 @@
 		"redpack": "./bin.js" 
 	},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,10 @@
     "spec",
     "systemd"
   ],
-  "author": "Bobby Rockers <rrockers@gmail.com> (http://github.com/brockers)",
+  "author": {
+		"name": "Bobby Rockers <rrockers@gmail.com>",
+		"url": "http://github.com/brockers"
+	},
   "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/brockers/redpack/issues"

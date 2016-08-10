@@ -5,7 +5,7 @@
 %{!?BUILD_NUMBER: %define BUILD_NUMBER local}
 
 Name:           --name--
-Version:        --verison--
+Version:        --version--
 Release:        %{BUILD_NUMBER}
 Summary:        --description--
 
@@ -104,5 +104,5 @@ rm -rf $RPM_BUILD_ROOT
 %_sysconfdir/nginx/conf.d/%{name}.conf
 
 %changelog
-* Fri Jun 03 2016 Bob Rockers <rrockers@gmail.com> 1.0
+* --changelog.date-- --author.name-- --version--
 - Log message goes here
