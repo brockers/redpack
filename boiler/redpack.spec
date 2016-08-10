@@ -5,13 +5,13 @@
 %{!?BUILD_NUMBER: %define BUILD_NUMBER local}
 
 Name:           --name--
-Version:        1.0
+Version:        --verison--
 Release:        %{BUILD_NUMBER}
 Summary:        --description--
 
 License:        --license--
-URL:            http://www.example.com
-Source0:        http://www.example.com/%{name}-%{version}.tar.bz2
+URL:            --homepage--
+Source0:        --homepage--/%{name}-%{version}.tar.bz2
 
 BuildRequires:  yum-utils rpmdevtools redhat-rpm-config
 
