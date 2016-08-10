@@ -1,0 +1,24 @@
+{
+  "name": "redpack",
+  "version": "0.9.0",
+  "description": "Configure, package, and build RPM based packages for Node.js projects with SystemD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brockers/redpack.git"
+  },
+  "keywords": [
+    "rpm",
+    "spec",
+    "systemd"
+  ],
+  "author": "Bobby Rockers <rrockers@gmail.com> (http://github.com/brockers)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/brockers/redpack/issues"
+  },
+  "homepage": "https://github.com/brockers/redpack#readme"
+}
