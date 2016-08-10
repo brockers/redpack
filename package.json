@@ -2,7 +2,10 @@
   "name": "redpack",
   "version": "0.9.0",
   "description": "Configure, package, and build RPM based packages for Node.js projects with SystemD.",
-  "main": "index.js",
+  "main": "./index.js",
+	"bin":{
+		"redpack": "./bin.js" 
+	},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
