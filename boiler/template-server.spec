@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__rm} -rf ./node_modules/mocha*
 %{__rm} -rf ./node_modules/mock-*
 %{__rm} -rf ./node_modules/protractor*
+%{__rm} -rf ./node_modules/selenium*
 %{__rm} -rf ./node_modules/supertest*
 
 # Create our target directories

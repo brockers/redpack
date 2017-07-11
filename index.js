@@ -26,10 +26,10 @@ if (args[0] != null) {
 var json = JSON.parse(fs.readFileSync('package.json', 'utf8'));
 
 fs.readFile('./boiler/template-server.spec', 'utf8', function (err,data) {
-  if (err) {
-    return console.log(err);
-  }
-  
+	if (err) {
+		return console.log(err);
+	}
+
 	console.log(json.version);
 	data = data.replace(/--version--/g, json.version);
 	data = data.replace(/--name--/g, json.name);
@@ -39,7 +39,7 @@ fs.readFile('./boiler/template-server.spec', 'utf8', function (err,data) {
 	data = data.replace(/--author.name--/g, json.author.name);
 	data = data.replace(/--changelog.date--/g, changelogDate());
 
-  fs.writeFile( json.name+'.spec', data, 'utf8', function (err) {
-     if (err) return console.log(err);
-  });
+	fs.writeFile( json.name+'.spec', data, 'utf8', function (err) {
+		if (err) { return console.log(err); }
+	});
 });
